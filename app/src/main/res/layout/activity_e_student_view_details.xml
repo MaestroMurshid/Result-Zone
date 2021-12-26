@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentViewDetails">
+
+   <ImageView
+       android:id="@+id/imageView11"
+       android:layout_width="813dp"
+       android:layout_height="1266dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:srcCompat="@color/colorAccent" />
+
+   <TextView
+       android:layout_width="107dp"
+       android:layout_height="41dp"
+       android:layout_marginStart="16dp"
+       android:layout_marginTop="104dp"
+       android:text="NAME    :"
+       android:textColor="#FFFFFF"
+       android:textSize="25dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <EditText
+       android:id="@+id/nametv"
+       android:layout_width="221dp"
+       android:layout_height="40dp"
+       android:layout_marginStart="148dp"
+       android:layout_marginTop="104dp"
+       android:text="REG NO."
+       android:textColor="#FFFFFF"
+       android:textSize="20dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <EditText
+       android:id="@+id/regnotv"
+       android:layout_width="221dp"
+       android:layout_height="40dp"
+       android:layout_marginStart="148dp"
+       android:layout_marginTop="52dp"
+       android:text="REG NO."
+       android:textColor="#FFFFFF"
+       android:textSize="20dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <EditText
+       android:id="@+id/dobtv"
+       android:layout_width="221dp"
+       android:layout_height="40dp"
+       android:layout_marginStart="148dp"
+       android:layout_marginTop="156dp"
+       android:text="REG NO."
+       android:textColor="#FFFFFF"
+       android:textSize="20dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView4"
+       android:layout_width="107dp"
+       android:layout_height="41dp"
+       android:layout_marginStart="16dp"
+       android:layout_marginTop="52dp"
+       android:text="REG NO :"
+       android:textColor="#FFFFFF"
+       android:textSize="25dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="107dp"
+       android:layout_height="41dp"
+       android:layout_marginStart="16dp"
+       android:layout_marginTop="156dp"
+       android:text="DOB       :"
+       android:textColor="#FFFFFF"
+       android:textSize="25dp"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+
+   <Button
+       android:id="@+id/button11"
+       android:layout_width="259dp"
+       android:layout_height="56dp"
+       android:layout_marginStart="108dp"
+       android:layout_marginTop="656dp"
+       android:background="@drawable/rounded_buttons"
+       android:backgroundTint="#2196F3"
+       android:text="VIEW RESULT"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView7"
+       android:layout_width="94dp"
+       android:layout_height="43dp"
+       android:layout_marginStart="28dp"
+       android:layout_marginTop="548dp"
+       android:text="SGPA S6"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView11"
+       android:layout_width="94dp"
+       android:layout_height="43dp"
+       android:layout_marginStart="28dp"
+       android:layout_marginTop="496dp"
+       android:text="SGPA S5"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView9"
+       android:layout_width="94dp"
+       android:layout_height="43dp"
+       android:layout_marginStart="28dp"
+       android:layout_marginTop="448dp"
+       android:text="SGPA S4"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView10"
+       android:layout_width="94dp"
+       android:layout_height="43dp"
+       android:layout_marginStart="28dp"
+       android:layout_marginTop="396dp"
+       android:text="SGPA S3"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView8"
+       android:layout_width="94dp"
+       android:layout_height="43dp"
+       android:layout_marginStart="28dp"
+       android:layout_marginTop="344dp"
+       android:text="SGPA S2"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView6"
+       android:layout_width="94dp"
+       android:layout_height="43dp"
+       android:layout_marginStart="28dp"
+       android:layout_marginTop="288dp"
+       android:text="SGPA S1"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView"
+       android:layout_width="94dp"
+       android:layout_height="43dp"
+       android:layout_marginStart="28dp"
+       android:layout_marginTop="612dp"
+       android:text="CGPA"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/CGPAtv"
+       android:layout_width="105dp"
+       android:layout_height="44dp"
+       android:layout_marginStart="136dp"
+       android:layout_marginTop="612dp"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/SGPA5tv"
+       android:layout_width="105dp"
+       android:layout_height="44dp"
+       android:layout_marginStart="136dp"
+       android:layout_marginTop="496dp"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/SGPA3tv"
+       android:layout_width="105dp"
+       android:layout_height="44dp"
+       android:layout_marginStart="136dp"
+       android:layout_marginTop="396dp"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/SGPA2tv"
+       android:layout_width="105dp"
+       android:layout_height="44dp"
+       android:layout_marginStart="136dp"
+       android:layout_marginTop="344dp"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/SGPA1tv"
+       android:layout_width="105dp"
+       android:layout_height="44dp"
+       android:layout_marginStart="136dp"
+       android:layout_marginTop="284dp"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/SGPA4tv"
+       android:layout_width="105dp"
+       android:layout_height="44dp"
+       android:layout_marginStart="136dp"
+       android:layout_marginTop="448dp"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/SGPAtv6"
+       android:layout_width="105dp"
+       android:layout_height="44dp"
+       android:layout_marginStart="136dp"
+       android:layout_marginTop="548dp"
+       android:textSize="20sp"
+       app:layout_constraintStart_toStartOf="@+id/imageView11"
+       app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

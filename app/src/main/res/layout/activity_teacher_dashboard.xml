@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main.TeacherDashboard">
+
+    <Button
+        android:id="@+id/tBtn2"
+        android:layout_width="240dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="140dp"
+
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rounded_buttons"
+        android:backgroundTint="#33B5E5"
+        android:text="STUDENT DETAILS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tBtn5"
+        android:layout_width="108dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="392dp"
+
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rounded_buttons"
+        android:backgroundTint="#2D2F31"
+        android:text="LOGOUT"
+        android:textColor="#FDF9F9"
+        android:textColorHighlight="#00FFFFFF"
+        android:textColorHint="#FCFFFFFF"
+        android:textColorLink="#00FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tBtn3"
+        android:layout_width="240dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="228dp"
+
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rounded_buttons"
+        android:backgroundTint="#33B5E5"
+        android:text="SYLLABUS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tBtn4"
+        android:layout_width="240dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="312dp"
+
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/rounded_buttons"
+        android:backgroundTint="#33B5E5"
+        android:text="CALCULATOR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="622dp"
+        android:layout_height="915dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/colorAccent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

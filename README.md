@@ -13,7 +13,12 @@ View and Download Syllabus
 Students Can
 
 View Result
-View Thier Details 
+View Details 
 Calculate SGPA and CGPA
 View and Download Syllabus
 
+How to use:-
+
+1. Git Clone or Download the Project Folder and open it.
+2. Add your google-services.json to ProjectFolder/app
+3. Import The cgpa-ef764-default-rtdb-export file in the project folder to your Firebase Database.
